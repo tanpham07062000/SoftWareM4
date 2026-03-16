@@ -4,15 +4,15 @@ import "./Header.scss";
 const Header = () => {
   return (
     <>
-      <header class="header">
-        <div class="header__wrap">
-          <div class="header__logo">
+      <header className="header">
+        <div className="header__wrap">
+          <div className="header__logo">
             <a href="#">
               <img src={logo} alt="Logo" />
               <span>SoftwareM4</span>
             </a>
           </div>
-          <div class="header__menu">
+          <div className="header__menu">
             <ul>
               <li>
                 <a href="#">Home</a>
@@ -28,7 +28,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div class="header__social">
+          <div className="header__social">
             <ul>
               <li>
                 <a href="#" target="_blank">
@@ -47,7 +47,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div class="header__icon-mobile">
+          <div className="header__icon-mobile">
             <FaBars />
           </div>
         </div>

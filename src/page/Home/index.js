@@ -1,12 +1,11 @@
 import Header from "./Header";
 import '../Home.scss'
+import Main from "./Main";
 const Home = ()=>{
   return (
     <>
     <Header/>
-    <main>
-
-    </main>
+    <Main/>
     <footer>
 
     </footer>
